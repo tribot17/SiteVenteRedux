@@ -1,0 +1,28 @@
+.app {
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
+  .un {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .un::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: black;
+    transition: 300ms;
+  }
+
+  .un:hover::after {
+    width: 100%;
+  }
+}

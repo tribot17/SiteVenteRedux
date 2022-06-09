@@ -1,0 +1,32 @@
+.hommePage {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    text-align: center;
+  }
+
+  .promotionListing {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+
+    .promotionContainer {
+      display: grid;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+  }
+
+  .productListing {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    width: 80%;
+
+    .productHommeContainer {
+      display: grid;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+  }
+}

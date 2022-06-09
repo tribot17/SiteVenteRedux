@@ -1,0 +1,18 @@
+.footer {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: auto;
+  height: 80px;
+
+  .leftFooter,
+  .middleFooter,
+  .rightFooter {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    li {
+      margin: 5px;
+    }
+  }
+}

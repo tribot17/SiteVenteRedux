@@ -1,0 +1,29 @@
+.productDisplay {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  .productInner {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 15px;
+    width: 200px;
+
+    i {
+      margin-left: 25px;
+    }
+  }
+  img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .textProduct {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+}

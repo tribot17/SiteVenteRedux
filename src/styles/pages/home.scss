@@ -1,0 +1,34 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .homeCenter {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 80%;
+    background: url("../images/banner2.jpg") no-repeat center/cover;
+    margin: auto;
+    border-radius: 5px;
+
+    h1 {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    .centerButton {
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 5%;
+      width: 20%;
+
+      button {
+        cursor: pointer;
+        margin-left: 15px;
+        padding: 20px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
