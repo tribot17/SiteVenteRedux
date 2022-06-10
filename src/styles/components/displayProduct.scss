@@ -12,12 +12,16 @@
 
     i {
       margin-left: 25px;
+      z-index: 2;
     }
+  }
+  a {
+    width: 200px;
   }
   img {
     margin: auto;
     width: 200px;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
   }
 

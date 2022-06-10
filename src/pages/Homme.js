@@ -16,6 +16,7 @@ const Homme = () => {
                 prix={n.prix}
                 img={n.img}
                 id={n.id}
+                genre={n.genre}
                 key={i}
               />
             ))}
@@ -30,6 +31,7 @@ const Homme = () => {
                 nom={n.name}
                 prix={n.prix}
                 img={n.img}
+                genre={n.genre}
                 id={n.id}
                 key={i}
               />

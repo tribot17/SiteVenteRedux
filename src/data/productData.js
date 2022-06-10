@@ -4,6 +4,7 @@ const hommeProduct = [
     img: "../images/chassureBlanche.jpg",
     prix: "15",
     type: "Chaussure",
+    genre: "homme",
     id: "1",
   },
   {
@@ -11,6 +12,7 @@ const hommeProduct = [
     img: "../images/chaussureNoire.jpg",
     prix: "25",
     type: "Chaussure",
+    genre: "homme",
     id: "2",
   },
   {
@@ -18,6 +20,7 @@ const hommeProduct = [
     img: "../images/chassureRouge.jpg",
     prix: "25",
     type: "Chaussure",
+    genre: "homme",
     id: "3",
   },
 ];
@@ -28,6 +31,7 @@ const promotionHomme = [
     img: "../images/chassureBlanche.jpg",
     prix: "15",
     type: "Chaussure",
+    genre: "homme",
     id: "1",
   },
   {
@@ -35,6 +39,7 @@ const promotionHomme = [
     img: "../images/chaussureNoire.jpg",
     prix: "25",
     type: "Chaussure",
+    genre: "homme",
     id: "2",
   },
   {
@@ -42,6 +47,7 @@ const promotionHomme = [
     img: "../images/chassureRouge.jpg",
     prix: "25",
     type: "Chaussure",
+    genre: "homme",
     id: "3",
   },
 ];

@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <div className="navbarLeft">
           <li>
-            <NavLink to="/">
+            <NavLink to="/panier">
               <span className="un">Panier</span>
             </NavLink>
           </li>

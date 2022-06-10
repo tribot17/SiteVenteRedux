@@ -2,7 +2,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 
 const panierSlice = createSlice({
   name: "panier",
-  initalState: [],
+  initialState: [],
   reducers: {
     addToCart: (state, action) => {
       const newProduct = {
@@ -12,10 +12,14 @@ const panierSlice = createSlice({
 
       state.push(newProduct);
     },
+    deleteCart: (state, action) => {
+      state = state.filter((t) => t.id !== action.payload);
+      return state;
+    },
   },
 });
 
-export const { addToCart } = panierSlice.actions;
+export const { addToCart, deleteCart } = panierSlice.actions;
 
 export const store = configureStore({
   reducer: {
