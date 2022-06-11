@@ -23,6 +23,38 @@ const hommeProduct = [
     genre: "homme",
     id: "3",
   },
+  {
+    name: "Chassure Jaune",
+    img: "../images/chaussureJaune.jpg",
+    prix: "35",
+    type: "Chaussure",
+    genre: "homme",
+    id: "4",
+  },
+  {
+    name: "Chassure Violette",
+    img: "../images/chassureViolette.jpg",
+    prix: "35",
+    type: "Chaussure",
+    genre: "homme",
+    id: "5",
+  },
+  {
+    name: "Chassure Bleu",
+    img: "../images/chaussureBleu.jpg",
+    prix: "27",
+    type: "Chaussure",
+    genre: "homme",
+    id: "6",
+  },
+  {
+    name: "Chassure Verte",
+    img: "../images/chaussureVerte.jpg",
+    prix: "45",
+    type: "Chaussure",
+    genre: "homme",
+    id: "7",
+  },
 ];
 
 const promotionHomme = [
