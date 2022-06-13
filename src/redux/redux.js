@@ -8,18 +8,21 @@ const panierSlice = createSlice({
       const newProduct = {
         id: action.payload[0],
         size: action.payload[1],
+        quantity: action.payload[2],
       };
 
       state.push(newProduct);
     },
-    deleteCart: (state, action) => {
-      state = state.filter((t) => t.id !== action.payload);
-      return state;
+    updateQuantity: (state, action) => {
+      state.forEach((n, i) => {
+        if (n.id === action.payload[0]) n.quantity = action.payload[1];
+      });
     },
+    deleteCart: (state, action) => {},
   },
 });
 
-export const { addToCart, deleteCart } = panierSlice.actions;
+export const { addToCart, deleteCart, updateQuantity } = panierSlice.actions;
 
 export const store = configureStore({
   reducer: {
