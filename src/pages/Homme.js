@@ -6,7 +6,7 @@ const Homme = () => {
   return (
     <div className="hommePage">
       <div className="promotionListing">
-        <h3>Promotions</h3>
+        <h3>Meilleures ventes</h3>
 
         <div className="promotionContainer">
           {promotionHomme &&

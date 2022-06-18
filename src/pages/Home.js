@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="homeCenter">
-        <h1>Reduxios</h1>
+        <h1>Redux Store</h1>
         <div className="centerButton">
           <NavLink to="/homme">
             <button>Homme</button>

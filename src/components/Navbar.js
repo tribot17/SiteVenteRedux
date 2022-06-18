@@ -28,11 +28,11 @@ const Navbar = () => {
               <span className="un">Panier</span>
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="/">
               <span className="un">Mon compte</span>
             </NavLink>
-          </li>
+          </li> */}
         </div>
       </ul>
     </div>

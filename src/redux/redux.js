@@ -18,7 +18,10 @@ const panierSlice = createSlice({
         if (n.id === action.payload[0]) n.quantity = action.payload[1];
       });
     },
-    deleteCart: (state, action) => {},
+    deleteCart: (state, action) => {
+      state = state.filter((t) => t.id !== action.payload);
+      return state;
+    },
   },
 });
 
