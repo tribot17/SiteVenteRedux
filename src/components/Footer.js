@@ -7,10 +7,14 @@ const Footer = () => {
       <div className="leftFooter">
         <ul>
           <li>
-            <span className="un">CGV</span>
+            <NavLink to="/CGV">
+              <span className="un">CGV</span>
+            </NavLink>
           </li>
           <li>
-            <span className="un">CGC</span>
+            <NavLink to="/CGC">
+              <span className="un">CGC</span>
+            </NavLink>
           </li>
           <li>
             <span className="un"></span>

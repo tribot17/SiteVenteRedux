@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import Homme from "./pages/Homme";
 import Panier from "./pages/Panier";
 import ProductPage from "./pages/ProductPage";
+import CGV from "./pages/CGV";
 import { store } from "./redux/redux";
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           <Route path="/panier" element={<Panier />} />
           <Route path="/product/:slug" element={<ProductPage />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/cgv" element={<CGV />} />
+          <Route path="/cgc" element={<CGV />} />
         </Routes>
         <Footer />
       </Provider>
